@@ -67,9 +67,21 @@ p {
     background-color: transparent;
 }
 
-#services .card {
+#services, #new-games .card {
     margin-bottom: 1.5rem;
 }
+
+/* New Games Section */
+
+#new-games .card {
+    border-width:  0;
+}
+
+em p {
+    margin-bottom: 0;
+}
+
+
 
 /* Grid Visual CSS testing */
 /*
