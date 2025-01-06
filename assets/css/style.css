@@ -30,6 +30,10 @@ h1, h2 {
 h2 {
     margin-bottom: 2rem;
 }
+
+em p {
+    margin-bottom: 0;
+}
 /*
 p {
     border: 2px solid var(--primary-color);
@@ -67,7 +71,7 @@ p {
     background-color: transparent;
 }
 
-#services, #new-games .card {
+#services, #new-games, #fav-games .card {
     margin-bottom: 1.5rem;
 }
 
@@ -77,10 +81,12 @@ p {
     border-width:  0;
 }
 
-em p {
-    margin-bottom: 0;
-}
 
+/* Favorite games section */
+
+#fav-games .card {
+    border-width:  0;
+}
 
 
 /* Grid Visual CSS testing */
@@ -100,6 +106,10 @@ em p {
     #services .card-body {
         min-height: 191px;
     } 
+
+    #fav-games .card-body {
+        min-height: 305px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -114,6 +124,10 @@ em p {
     #services .card-body {
         min-height: 220px;
     } 
+
+    #fav-games .card-body {
+        min-height: 330px;
+    }
 }
 
 @media screen and (min-width: 1400px) {
@@ -121,6 +135,10 @@ em p {
     #services .card-body {
         min-height: 195px;
     } 
+
+    
 }
+
+
 
 
