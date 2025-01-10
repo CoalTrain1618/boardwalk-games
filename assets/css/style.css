@@ -102,6 +102,13 @@ p {
     margin-bottom: 1.5rem;
 }
 
+
+/* Events section */
+.student-discount {
+    background-color: var(--highlight-color);
+    color: white;
+}
+
 /* New Games Section */
 
 #new-games .card {
@@ -168,13 +175,21 @@ p {
     #fav-games .card-body {
         min-height: 305px;
     }
+
+    .student-discount {
+        max-width: 330px;
+    }
 }
 
 @media screen and (min-width: 992px) {
     /* Make all service cards the same heightfor consistency */
     #services .card-body {
         min-height: auto;
-    } 
+    }
+
+    .student-discount {
+        max-width: 330px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -186,14 +201,21 @@ p {
     #fav-games .card-body {
         min-height: 330px;
     }
+
+    .student-discount {
+        max-width: 330px;
+    }
 }
 
 @media screen and (min-width: 1400px) {
     /* Make all service cards the same heightfor consistency */
     #services .card-body {
         min-height: 195px;
-    } 
+    }
 
+    .student-discount {
+        max-width: 330px;
+    }
     
 }
 
