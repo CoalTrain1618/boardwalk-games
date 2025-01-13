@@ -73,6 +73,9 @@ p {
     color: white
 }
 
+.book-now {
+    max-width: 140px;
+}
 
 /* Navbar */
 
@@ -107,6 +110,7 @@ p {
 .student-discount {
     background-color: var(--highlight-color);
     color: white;
+    border-radius: 5px;
 }
 
 /* New Games Section */
@@ -121,6 +125,10 @@ p {
 #fav-games .card {
     border-width:  0;
 }
+
+/* Events section */
+
+
 
 /* footer / contact*/
 #contact {
@@ -175,7 +183,7 @@ p {
     #fav-games .card-body {
         min-height: 305px;
     }
-
+    
     .student-discount {
         max-width: 330px;
     }
@@ -186,7 +194,7 @@ p {
     #services .card-body {
         min-height: auto;
     }
-
+    
     .student-discount {
         max-width: 330px;
     }
@@ -201,7 +209,7 @@ p {
     #fav-games .card-body {
         min-height: 330px;
     }
-
+    
     .student-discount {
         max-width: 330px;
     }
@@ -212,7 +220,7 @@ p {
     #services .card-body {
         min-height: 195px;
     }
-
+    
     .student-discount {
         max-width: 330px;
     }
